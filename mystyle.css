@@ -73,8 +73,7 @@
         top: 0px;
         position: relative;
         display: block;
-
-    
+        
       }
      
 
@@ -109,7 +108,7 @@ nav {
 .nav-toggle {
   display: none;
   width: 100%;
-  list-style-type: none;
+  list-style-type:none;
   text-align: center;
   border: 3px solid rgb(0, 0, 0);
   background-color: rgb(255, 250, 250);
@@ -132,8 +131,11 @@ nav {
 
 /* Key component */
 #hamburger:checked~.nav-toggle {
-  display: block;
+  display: flex;
+  flex-direction: row;
+font-size: 25px;
   text-align: center;
+  font-family:'Franklin Gothic Medium';
 }
   
 .photo {
@@ -151,11 +153,13 @@ section{
   margin-top: 10px;
   background-image: url('zebra-7075975_1280.png');
 }
-h2{color: rgb(88, 87, 87);
+h2{color: rgb(244, 167, 180);
+  font-style: oblique;
   text-align: center;
 }
-p{color: rgb(236, 148, 163);
+p{color: rgb(18, 17, 17);
   font-weight: bold;
+  font-family:'Franklin Gothic Medium';
 }
 
 .first {
@@ -167,16 +171,16 @@ p{color: rgb(236, 148, 163);
   margin-left: 20px;
   border-style: solid;
   border-width: 10px;
-  background-color: #ffffffce;
+  background-color: #ffffffe7;
   text-align: center;
   text-indent: 1px;
-  
+  font-family:'Franklin Gothic Medium';
   
 }
 
 .second {
   order: 2;
-  background-color: #ffffffce;
+  background-color: #ffffffe7;
   border-color: #7ed95799;
   border-style: solid;
   border-width: 10px;
@@ -186,13 +190,13 @@ p{color: rgb(236, 148, 163);
   margin-left: 20px;
   text-align: center;
   text-indent: 1px;
-  
+  font-family:'Franklin Gothic Medium';
   
 }
 
 .third {
   order: 3;
-  background-color: #ffffffce;
+  background-color: #ffffffe7;
   width: 31%;
   height: 300px ;
   border-radius: 10%;
@@ -202,20 +206,25 @@ p{color: rgb(236, 148, 163);
   margin-left: 20px;
   text-align: center;
   text-indent: 1px;
-  
+  font-family:'Franklin Gothic Medium';
 
 }
 h1{
   color:#000000;
-  text-align: center;
+  margin-left: 330px;
   font-family:'Franklin Gothic Medium';
-  font-size: 35px;
+  font-size: 45px;
+
+}
+#main-heading{
+  
 }
 footer {
   margin-top: 20px;
   background-color: black; 
   display: flex;
   flex-wrap: wrap;
+  font-family:'Franklin Gothic Medium';
 }
 
 .map{
@@ -224,16 +233,17 @@ footer {
   margin-bottom: 5px;
 
 }
-.contacts{
+#contacts{
   margin-top: 5px;
   margin-left:5px;
   color: white;
   display: flex;
-  
+  font-family:'Franklin Gothic Medium';
 
 }
 h5{
   font-size: 20px;
+  font-family:'Franklin Gothic ';
 }
 .icon1{
   margin-left: 0%;
@@ -241,10 +251,11 @@ h5{
 }
 
 /* Timeline */
-.timeline {
+#timeline {
   background: var(--primary-color);
   margin: 20px auto;
   padding: 20px;
+  font-family:'Franklin Gothic';
   
 }
 .card {
@@ -342,27 +353,26 @@ h7{
   font-weight: bold;
   color: #7ed957dc;
   margin-left: -65px;
+  font-family:'Franklin Gothic Medium';
 }
 .hardskillsli li{
   text-align: center;
   list-style-type:none;
   border-width: 4px;
-  background-color:#7ed957c3;
+  background-color:#7ed957d9;
   padding: 10px 10px 20px 20px;
   width: 300px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
-
- 
-
-
+  font-family:'Franklin Gothic Medium';
 } 
 ul{
   display: flex;
-  flex-flow: column;
-  
+  flex-flow: column; 
+
 }
+
 h8 {font-weight: bold;
   color:#4d4848ce;
   font-weight: bold;
@@ -370,14 +380,12 @@ h8 {font-weight: bold;
   margin-top: 10px;
   margin-left: 65px;
   background-color: pink;
-  
-
+  font-family:'Franklin Gothic Medium';
 }
-.Skills {
+.Skills1{
   order: 1;
   width: 25%;
   margin-left: 5px;
-
 }   
 
 table{ 
@@ -385,11 +393,11 @@ order:  2;
 width:50%;
 background-color: white;
 background-size: 400px;
+height: 550px;
 margin-left: 65px;
-
-
-
-
+margin-top: 30px;
+font-family:'Franklin Gothic ';
+font-size: 20px;
 
 }
 .Skills2 {
@@ -397,24 +405,19 @@ margin-left: 65px;
   width: 25%;
  float: right;
 margin-left: 60px;
-
-
-
-
+margin-right: 5px;
 }
 .Softskillsli li{
   text-align: center;
   list-style-type:none;
   border-width: 4px;
-  background-color:#7ed957c3;
+  background-color:#7ed957d9;
   padding: 10px 10px 20px 20px;
   width: 300px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
-
- 
-
+  font-family:'Franklin Gothic Medium';
 
 } 
 aside{
@@ -422,4 +425,181 @@ aside{
   flex-direction: row;
   width:auto;
   background-image: url('zebra-7075975_1280.png');
+  margin-top: 0px;
+}
+h9{
+  color: pink;
+}
+h10{
+  font-size: 30px;
+  background-color: #7ed957d9;
+  color: #4d4848ce;
+  font-family:'Franklin Gothic Medium';
+}
+h11{
+margin-left: 610px;
+font-size: 40px;
+color:pink;
+font-style: oblique;
+font-weight: bold;
+}
+h12{
+  color: pink;
+  font-family:'Franklin Gothic Medium';
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  #hamburger:checked~.nav-toggle {
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .slider{
+  
+    width: auto;
+    height: 50%;
+
+
+}
+.slide {
+  width: auto;
+    
+}
+}
+
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .first{
+  
+    width: auto;
+   height: 70%;
+
+
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .second{
+  
+    width: auto;
+   height: 70%;
+
+
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .third{
+  
+    width: auto;
+   height: 70%;
+
+
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  main {
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  aside {
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  h1 {
+    text-align: center;
+    margin-left:5% ;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  h11{
+
+    margin-left:32% ;
+    font-size: 30px;
+}
+}
+
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .secd {
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  h7 {
+    
+    margin-left: 17%;
+    text-align: center;
+}
+}
+
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .icon2{
+   
+    width: 50%;
+    height: 50%;
+    margin-top: 0%;
+}
+}
+
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  aside {
+    
+    display: grid;
+    
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .hardskillsli li {
+    
+    width: 100%;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .Softskillsli li {
+   
+    width: 100%;
+}
+}
+
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .Skills1 {
+    order: 1;
+    margin-left: 0%;
+    max-width: 50%;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .Skills2 {
+    order: 2;
+    margin-left: 0%;
+    max-width: 50%;
+}
+}
+
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  table {
+    order: 3;
+    width: 100%;
+    margin-left: 0%;
+    background-color: pink;
+    border:rgb(255, 250, 250);
+    border-style: ridge;
+    border-width: 3px;
+} 
 }
