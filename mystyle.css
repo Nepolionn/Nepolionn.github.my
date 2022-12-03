@@ -503,7 +503,7 @@ h12{
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
 .slide{
-  width: 370px;
+  width: 385px;
  height:250px;
 
 }
@@ -514,10 +514,10 @@ h12{
     left: 0px;
   }
   #slide-2:target ~ .image-container {
-    left: -370px;
+    left: -385px;
   }
   #slide-3:target ~ .image-container {
-    left: -740px;
+    left: -770px;
   
   }
       
@@ -737,9 +737,12 @@ h12{
 }
 @media screen and (min-width: 300px) and  (max-width: 767px) {
   .socmedia{
-    margin-left: 23%;
+    margin-left: 25%;
   
-    
-
+}
+}
+@media screen and (min-width: 300px) and  (max-width: 767px) {
+body {
+width: auto;
 }
 }
