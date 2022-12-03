@@ -222,6 +222,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   font-family:'Franklin Gothic Medium';
+  width: auto;
 }
 
 .map{
@@ -453,7 +454,7 @@ h12{
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .slider{
 
-      max-width: 80%;
+      max-width: 83%;
       height: 55%;
 
   }
@@ -494,13 +495,16 @@ h12{
     display: flex;
     flex-direction: column;
     
+    
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .first{
   
-    width: auto;
+  width: auto;
    height: 70%;
+   margin-left: 2%;
+  margin-right: 2%;
 
 
 }
@@ -508,18 +512,20 @@ h12{
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .second{
   
-    width: auto;
+  width: auto;
    height: 70%;
-
+   margin-left: 2%;
+   margin-right: 2%;
 
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .third{
   
-    width: auto;
+  width: auto;
    height: 70%;
-
+   margin-left: 2%;
+   margin-right: 2%;
 
 }
 }
@@ -553,6 +559,8 @@ h12{
   main {
     display: flex;
     flex-direction: column-reverse;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
