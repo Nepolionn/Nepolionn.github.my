@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -73,6 +73,7 @@
         top: 0px;
         position: relative;
         display: block;
+        width: auto;
         
       }
      
@@ -80,7 +81,7 @@
 nav {
   position: relative;
   color: white;
-  background-color: rgba(0, 0, 0, 0.973);
+  background-color: rgba(0, 0, 0);
   left:0px;
   top: 0px;
   
@@ -129,7 +130,6 @@ nav {
   background-color: #7ed95761;
 }
 
-/* Key component */
 #hamburger:checked~.nav-toggle {
   display: flex;
   flex-direction: row;
@@ -233,11 +233,42 @@ footer {
 }
 #contacts{
   margin-top: 5px;
-  margin-left:5px;
+  margin-left:240px;
   color: white;
   display: flex;
   font-family:'Franklin Gothic Medium';
+  text-align: center;
+ 
 
+}
+.socmedia{
+  
+  margin-left:80%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background:#7ed95799;
+  color: white;
+
+}
+
+
+.fa-linkedin {
+  background: pink;
+  color: white;
 }
 h5{
   font-size: 20px;
@@ -345,7 +376,7 @@ main{
   width:30%;
   margin-top: 200px;
   font-size: 45px;
- 
+  margin-left: 130px;
 }
 h7{
   font-weight: bold;
@@ -360,7 +391,7 @@ h7{
   background-color:#7ed957d9;
   padding: 10px 10px 20px 20px;
   width: 300px;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: bold;
   color: white;
   font-family:'Franklin Gothic Medium';
@@ -395,7 +426,7 @@ height: 550px;
 margin-left: 65px;
 margin-top: 30px;
 font-family:'Franklin Gothic ';
-font-size: 20px;
+font-size:  1.3rem;
 
 }
 .Skills2 {
@@ -412,7 +443,7 @@ margin-right: 5px;
   background-color:#7ed957d9;
   padding: 10px 10px 20px 20px;
   width: 300px;
-  font-size: 20px;
+  font-size:  1.3rem;
   font-weight: bold;
   color: white;
   font-family:'Franklin Gothic Medium';
@@ -429,10 +460,11 @@ h9{
   color: pink;
 }
 h10{
-  font-size: 30px;
+  font-size:  3.3rem;
   background-color: #7ed957d9;
   color: #4d4848ce;
   font-family:'Franklin Gothic Medium';
+  margin-left: 10%;
 }
 h11{
 margin-left: 610px;
@@ -454,8 +486,8 @@ h12{
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .slider{
 
-      max-width: 83%;
-      height: 55%;
+      max-width: 79%;
+      height: 50%;
 
   }
 }
@@ -464,13 +496,13 @@ h12{
   max-width: auto;
   background-color: pink;
   max-height: auto; 
-  height: 250px;
+  height: 220px;
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
 .slide{
-  width: 400px;
- height:250px;
+  width: 350px;
+ height:220px;
 
 }
     
@@ -480,10 +512,10 @@ h12{
     left: 0px;
   }
   #slide-2:target ~ .image-container {
-    left: -400px;
+    left: -350px;
   }
   #slide-3:target ~ .image-container {
-    left: -800px;
+    left: -700px;
   
   }
       
@@ -494,7 +526,7 @@ h12{
   section {
     display: flex;
     flex-direction: column;
-    
+    margin-right: 0%;
     
 }
 }
@@ -533,12 +565,14 @@ h12{
   main {
     display: flex;
     flex-direction: column;
+   
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   aside {
     display: flex;
     flex-direction:row;
+    margin-right: 0%;
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
@@ -577,7 +611,20 @@ h12{
     text-align: center;
 }
 }
-
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  h1 {
+    
+    margin-left: 0%;
+    text-align: center;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  h11 {
+    
+    margin-left: 27%;
+    text-align: center;
+}
+}
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .icon2{
   display: none;
@@ -585,7 +632,7 @@ h12{
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .hamburger-icon {
-  margin-top: 0.4%;
+  margin-top: 0.9%;
   margin-left: 0%;
 }
 }
@@ -671,3 +718,26 @@ h12{
 
 }
   }
+  @media screen and (min-width: 300px) and  (max-width: 767px) {
+    h10{
+      font-size: 2.3rem;
+      margin-left: 10%;
+
+}
+}
+@media screen and (min-width: 300px) and  (max-width: 767px) {
+  #contacts{
+    margin-left: 2%;
+    text-align: left;
+
+
+}
+}
+@media screen and (min-width: 300px) and  (max-width: 767px) {
+  .socmedia{
+    margin-left: 45%;
+  
+    
+
+}
+}
