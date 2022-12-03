@@ -486,8 +486,10 @@ h12{
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .slider{
 
-      max-width: 79%;
-      height: 50%;
+      max-width: 100%;
+      height: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
 
   }
 }
@@ -496,13 +498,13 @@ h12{
   max-width: auto;
   background-color: pink;
   max-height: auto; 
-  height: 220px;
+  height: 250px;
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
 .slide{
-  width: 350px;
- height:220px;
+  width: 400px;
+ height:250px;
 
 }
     
@@ -632,7 +634,7 @@ h12{
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .hamburger-icon {
-  margin-top: 0.9%;
+  margin-top: 1%;
   margin-left: 0%;
 }
 }
@@ -735,7 +737,7 @@ h12{
 }
 @media screen and (min-width: 300px) and  (max-width: 767px) {
   .socmedia{
-    margin-left: 45%;
+    margin-left: 30%;
   
     
 
