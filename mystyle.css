@@ -8,7 +8,7 @@
       .slider {
         width: 800px;
         height: 500px;
-        background-color: yellow;
+        background-color:#7ed95799;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
@@ -216,9 +216,6 @@ h1{
   font-size: 45px;
 
 }
-#main-heading{
-  
-}
 footer {
   margin-top: 20px;
   background-color: black; 
@@ -250,7 +247,7 @@ h5{
   margin-top: 20px;
 }
 
-/* Timeline */
+
 #timeline {
   background: var(--primary-color);
   margin: 20px auto;
@@ -455,23 +452,48 @@ h12{
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .slider{
-  
-    width: auto;
-    height: 50%;
 
+      max-width: 80%;
+      height: 55%;
+
+  }
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+.image-container {
+  max-width: auto;
+  background-color: pink;
+  max-height: auto; 
+  height: 250px;
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+.slide{
+  width: 400px;
+ height:250px;
 
 }
-.slide {
-  width: auto;
     
 }
-}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -400px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -800px;
+  
+  }
+      
+  }
+
 
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   section {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0%;
+    
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
@@ -510,7 +532,7 @@ h12{
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   aside {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
@@ -550,47 +572,56 @@ h12{
 
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   .icon2{
-   
-    width: 50%;
-    height: 50%;
-    margin-top: 0%;
+  display: none;
 }
 }
 
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   aside {
     
-    display: grid;
+    display: flexbox;
+    flex-wrap: wrap ;
     
-}
-}
-@media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .hardskillsli li {
-    
-    width: 100%;
-}
-}
-@media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .Softskillsli li {
-   
     width: 100%;
 }
 }
 
+
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .Skills1 {
+  .Skills1   {
     order: 1;
-    margin-left: 0%;
-    max-width: 50%;
+    width: 100%;
+    margin-right: 1%;
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .Skills2 {
+  .Skills1 li  {
+   
+  width: 100%;
+    
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .Skills2 li  {
+   
+  width: 100%;
+    
+}
+}
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  .Skills2  {
     order: 2;
-    margin-left: 0%;
-    max-width: 50%;
+    
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 }
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
+  h8  {
+  margin-left: 35%;
+}
+
 
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   table {
@@ -603,3 +634,27 @@ h12{
     border-width: 3px;
 } 
 }
+@media screen and (min-width: 300px) and  (max-width: 767px) {
+  .map {
+    display: none;
+  }
+  
+  }
+  @media screen and (min-width: 300px) and  (max-width: 767px) {
+    .secd{
+      margin-top: 0%;
+      margin-left:12% ;
+      background-color: pink;
+      width: 80%;
+
+     
+
+}
+  }
+  @media screen and (min-width: 300px) and  (max-width: 767px) {
+    h7{
+      font-size: 80%;
+      margin-left: 0%;
+
+}
+  }
