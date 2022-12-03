@@ -503,7 +503,7 @@ h12{
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
 .slide{
-  width: 400px;
+  width: 370px;
  height:250px;
 
 }
@@ -514,10 +514,10 @@ h12{
     left: 0px;
   }
   #slide-2:target ~ .image-container {
-    left: -350px;
+    left: -370px;
   }
   #slide-3:target ~ .image-container {
-    left: -700px;
+    left: -740px;
   
   }
       
@@ -737,7 +737,7 @@ h12{
 }
 @media screen and (min-width: 300px) and  (max-width: 767px) {
   .socmedia{
-    margin-left: 30%;
+    margin-left: 23%;
   
     
 
