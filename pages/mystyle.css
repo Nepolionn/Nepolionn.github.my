@@ -708,8 +708,8 @@ h12{
   table {
     order: 3;
     width:99%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
     background-color: pink;
     border:rgb(10, 10, 10);
     border-style: solid;
