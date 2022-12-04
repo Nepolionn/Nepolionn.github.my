@@ -484,7 +484,7 @@ h10{
 }
 h11{
 margin-left: 610px;
-font-size: 40px;
+font-size: 2.5rem;
 color:pink;
 font-style: oblique;
 font-weight: bold;
@@ -639,7 +639,7 @@ h12{
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   h11 {
     
-    margin-left: 27%;
+    margin-left: 25%;
     text-align: center;
 }
 }

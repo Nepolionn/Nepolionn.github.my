@@ -7,7 +7,7 @@ body {
   background:rgb(255, 255, 255);
   overflow-x:hidden;
   font-family:'Franklin Gothic Medium';
-  background-image: url(/images/zebra-7075975_1280.png);
+  background-image: url(images/zebra-7075975_1280.png);
 }
 p{
   font-family:'Franklin Gothic ';
@@ -53,6 +53,7 @@ h2{
   .content{
   padding:50% 0 0 10% ;
 
+}
 }
 
 
