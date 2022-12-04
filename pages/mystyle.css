@@ -704,7 +704,7 @@ h12{
 Ъ
 
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .table {
+  table {
     order: 3;
     width: 98%;
     margin-left: 0%;
