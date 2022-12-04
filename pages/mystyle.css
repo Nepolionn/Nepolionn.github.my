@@ -701,12 +701,13 @@ h12{
   h8  {
   margin-left: 35%;
 }
-Ъ
+}
+
 
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
   table {
     order: 3;
-    width: 98%;
+    width:100%;
     margin-left: 0%;
     margin-right: 0%;
     background-color: pink;
