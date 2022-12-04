@@ -103,7 +103,7 @@ nav {
 }
 
 .hamburger-icon::before {
-  content: url('menu.png');
+  content: url('../images/menu.png');
   
 }
 .nav-toggle {
@@ -133,13 +133,13 @@ nav {
 #hamburger:checked~.nav-toggle {
   display: flex;
   flex-direction: row;
-font-size: 25px;
+font-size: 1.5625rem;
   text-align: center;
   font-family:'Franklin Gothic Medium';
 }
   
 .photo {
-  background-image: url('light-green-tropical-leaves-wallpaper-mural-wm-93973071-41483682.jpg');
+  background-image: url('../images/zebra-7075975_1280.png');
   display: block;
 }
 body{
@@ -151,7 +151,7 @@ section{
   flex-wrap: wrap;
   border: none;
   margin-top: 10px;
-  background-image: url('zebra-7075975_1280.png');
+  background-image: url('../images/zebra-7075975_1280.png');
 }
 h2{color: rgb(244, 167, 180);
   font-style: oblique;
@@ -213,7 +213,7 @@ h1{
   color:#000000;
   margin-left: 330px;
   font-family:'Franklin Gothic Medium';
-  font-size: 45px;
+  font-size: 2.8125rem;
 
 }
 footer {
@@ -247,7 +247,7 @@ footer {
 }
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 1.825rem;
   width: 100px;
   text-align: center;
   text-decoration: none;
@@ -271,7 +271,7 @@ footer {
   color: white;
 }
 h5{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family:'Franklin Gothic ';
 }
 .icon1{
@@ -375,7 +375,7 @@ main{
 .secd{
   width:30%;
   margin-top: 200px;
-  font-size: 45px;
+  font-size: 2.8125rem;
   margin-left: 130px;
 }
 h7{
@@ -387,9 +387,12 @@ h7{
 .hardskillsli li{
   text-align: center;
   list-style-type:none;
-  border-width: 4px;
-  background-color:#7ed957d9;
-  padding: 10px 10px 20px 20px;
+  border-style: double;
+border-width: 5px;
+background-color:#7ed957d9; 
+border-radius: 5%;
+
+  padding: 10px 10px 15px 15px;
   width: 300px;
   font-size: 1.3rem;
   font-weight: bold;
@@ -403,9 +406,9 @@ ul{
 }
 
 h8 {font-weight: bold;
-  color:#4d4848ce;
+  color:#000000ce;
   font-weight: bold;
-  font-size:30px ;
+  font-size:1.875rem ;
   margin-top: 10px;
   margin-left: 65px;
   background-color: pink;
@@ -415,6 +418,8 @@ h8 {font-weight: bold;
   order: 1;
   width: 25%;
   margin-left: 5px;
+  
+
 }   
 
 table{ 
@@ -427,33 +432,44 @@ margin-left: 65px;
 margin-top: 30px;
 font-family:'Franklin Gothic ';
 font-size:  1.3rem;
+border-style: double;
+border-width: 5px;
+border-color: #000000;
+border-radius: 1%;
+
+
 
 }
-.Skills2 {
+#Skills2 {
   order:3;
   width: 25%;
  float: right;
 margin-left: 60px;
 margin-right: 5px;
+
 }
 .Softskillsli li{
   text-align: center;
   list-style-type:none;
-  border-width: 4px;
-  background-color:#7ed957d9;
-  padding: 10px 10px 20px 20px;
+  border-style: double;
+border-width: 5px;
+background-color:#7ed957d9; 
+border-radius: 5%;
+
+  padding: 10px 10px 15px 15px;
   width: 300px;
-  font-size:  1.3rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: white;
   font-family:'Franklin Gothic Medium';
-
 } 
+
+
 aside{
   display: flex;
   flex-direction: row;
   width:auto;
-  background-image: url('zebra-7075975_1280.png');
+  background-image: url('../images/zebra-7075975_1280.png');
   margin-top: 0px;
 }
 h9{
@@ -462,7 +478,7 @@ h9{
 h10{
   font-size:  3.3rem;
   background-color: #7ed957d9;
-  color: #4d4848ce;
+  color: #000000f1;
   font-family:'Franklin Gothic Medium';
   margin-left: 10%;
 }
@@ -483,7 +499,7 @@ h12{
     flex-direction: column;
 }
 }
-@ mediascreen  and (min-width: 300px) and  (max-width: 767px) {
+@media screen  and (min-width: 300px) and  (max-width: 767px) {
   .slider{
 
       max-width: 100%;
@@ -664,19 +680,21 @@ h12{
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .Skills2 li  {
+  #Skills2 li  {
    
   width: 100%;
     
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .Skills2  {
+  #Skills2  {
     order: 2;
     
     width: 100%;
     margin-left: 1%;
     margin-right: 1%;
+    border: #000000;
+  
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
@@ -690,10 +708,11 @@ h12{
     order: 3;
     width: 100%;
     margin-left: 0%;
+    margin-right: 0%;
     background-color: pink;
-    border:rgb(255, 250, 250);
-    border-style: ridge;
-    border-width: 3px;
+    border:rgb(10, 10, 10);
+    border-style: solid;
+    border-width: 5px;
 } 
 }
 @media screen and (min-width: 300px) and  (max-width: 767px) {

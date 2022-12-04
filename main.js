@@ -1,6 +1,7 @@
 
 function myFunction() {
-  location.href = "CV.html";
+  location.href = "pages/CV.html";
 }
+
 
 
