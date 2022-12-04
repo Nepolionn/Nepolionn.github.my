@@ -5,7 +5,7 @@
 }
 
 
-      .slider {
+      .slids {
         width: 800px;
         height: 500px;
         background-color:#7ed95799;
@@ -17,7 +17,7 @@
         justify-content: center;
       }
 
-      .image-container {
+      .img-container {
         width: 2400px;
         background-color: pink;
         height: 500px;
@@ -41,13 +41,13 @@
         height: 500px;
       }
       
-      #slide-1:target ~ .image-container {
+      #slide-1:target ~ .img-container {
         left: 0px;
       }
-      #slide-2:target ~ .image-container {
+      #slide-2:target ~ .img-container {
         left: -800px;
       }
-      #slide-3:target ~ .image-container {
+      #slide-3:target ~ .img-container {
         left: -1600px;
       }
       .buttons {
@@ -500,7 +500,7 @@ h12{
 }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  .slider{
+  .slids{
 
       max-width: 100%;
       height: 100%;
@@ -510,7 +510,7 @@ h12{
   }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-.image-container {
+.img-container {
   max-width: auto;
   background-color: pink;
   max-height: auto; 
@@ -526,13 +526,13 @@ h12{
     
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  #slide-1:target ~ .image-container {
+  #slide-1:target ~ .img-container {
     left: 0px;
   }
-  #slide-2:target ~ .image-container {
+  #slide-2:target ~ .img-container {
     left: -385px;
   }
-  #slide-3:target ~ .image-container {
+  #slide-3:target ~ .img-container {
     left: -770px;
   
   }
