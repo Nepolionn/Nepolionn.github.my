@@ -88,7 +88,7 @@ nav {
 }
 
 #hamburger {
-  display:block
+  display:block;
   left: 5px
 }
 
@@ -701,12 +701,12 @@ h12{
   h8  {
   margin-left: 35%;
 }
-
+}
 
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
-  table {
+  .table {
     order: 3;
-    width: 100%;
+    width: 98%;
     margin-left: 0%;
     margin-right: 0%;
     background-color: pink;
